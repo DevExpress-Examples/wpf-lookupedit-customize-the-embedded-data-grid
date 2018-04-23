@@ -1,0 +1,36 @@
+﻿<Window x:Class="HowToCreateLookUpEdit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core">
+    <Grid>
+        <dxg:LookUpEdit Name="lookUpEdit1"
+                        DisplayMember="ProductName"
+                        ValueMember="ID"
+                        AutoPopulateColumns="False"
+                        AutoComplete="True"
+                        IncrementalFiltering="True"
+                        ImmediatePopup="True"
+                        IsPopupAutoWidth="False"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top"
+                        Width="200" Margin="10">
+            <dxg:LookUpEdit.PopupContentTemplate>
+                <ControlTemplate>
+                    <dxg:GridControl Name="PART_GridControl">
+                        <dxg:GridControl.Columns>
+                            <dxg:GridColumn FieldName="ProductName" />
+                            <dxg:GridColumn FieldName="UnitPrice" />
+                            <dxg:GridColumn FieldName="Quantity" />
+                        </dxg:GridControl.Columns>
+                        <dxg:GridControl.View>
+                            <dxg:TableView AutoWidth="True" />
+                        </dxg:GridControl.View>
+                    </dxg:GridControl>
+                </ControlTemplate>
+            </dxg:LookUpEdit.PopupContentTemplate>
+        </dxg:LookUpEdit>
+    </Grid>
+</Window>
