@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowToCreateLookUpEdit", "HowToCreateLookUpEdit\HowToCreateLookUpEdit.csproj", "{896A3683-C0EE-4191-98FD-BD72FC13B7CB}"
 EndProject
 Global
