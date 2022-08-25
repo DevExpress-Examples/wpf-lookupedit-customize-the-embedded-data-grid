@@ -21,12 +21,12 @@
                 <ControlTemplate>
                     <dxg:GridControl Name="PART_GridControl">
                         <dxg:GridControl.Columns>
-                            <dxg:GridColumn FieldName="ProductName" />
-                            <dxg:GridColumn FieldName="UnitPrice" />
-                            <dxg:GridColumn FieldName="Quantity" />
+                            <dxg:GridColumn FieldName="ProductName"/>
+                            <dxg:GridColumn FieldName="UnitPrice"/>
+                            <dxg:GridColumn FieldName="Quantity"/>
                         </dxg:GridControl.Columns>
                         <dxg:GridControl.View>
-                            <dxg:TableView AutoWidth="True" />
+                            <dxg:TableView AutoWidth="True"/>
                         </dxg:GridControl.View>
                     </dxg:GridControl>
                 </ControlTemplate>
