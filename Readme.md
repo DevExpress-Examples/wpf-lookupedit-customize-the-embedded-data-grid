@@ -6,7 +6,7 @@
 
 # WPF LookUpEdit - Customize the Embedded Data Grid
 
-This example shows how to customize the [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl) displayed in the [LookUpEdit](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.LookUp.LookUpEdit)'s popup window.
+This example illustrates how to customize the [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl) displayed within the DevExpress WPF [LookUpEdit](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.LookUp.LookUpEdit)'s popup window.
 
 1. Set the [LookUpEdit.AutoPopulateColumns](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.LookUp.LookUpEdit.AutoPopulateColumns) property to `false`.
 1. Use the [PopupBaseEdit.PopupContentTemplate](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.PopupBaseEdit.PopupContentTemplate) property to specify a custom [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl).
