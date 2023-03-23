@@ -26,4 +26,7 @@ This example illustrates how to customize the [GridControl](https://docs.devexpr
 
 ## More Examples
 
+* [WPF LookUpEdit - Display a TreeList as Popup Content](https://github.com/DevExpress-Examples/wpf-lookupedit-display-treelist-as-popup-content)
 * [WPF LookUpEdit - Process New Values](https://github.com/DevExpress-Examples/lookupedit-processing-new-values-e2646)
+* [WPF LookUpEdit - Enable Multiple Selection Mode](https://github.com/DevExpress-Examples/wpf-lookupedit-enable-multiple-selection-mode)
+* [WPF LookUpEdit - Filter by Multiple Columns](https://github.com/DevExpress-Examples/wpf-lookupedit-filter-by-multiple-columns)
