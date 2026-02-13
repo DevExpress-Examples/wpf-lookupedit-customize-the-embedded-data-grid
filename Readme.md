@@ -32,7 +32,7 @@ This example illustrates how to customize the [GridControl](https://docs.devexpr
 * [WPF LookUpEdit - Enable Multiple Selection Mode](https://github.com/DevExpress-Examples/wpf-lookupedit-enable-multiple-selection-mode)
 * [WPF LookUpEdit - Filter by Multiple Columns](https://github.com/DevExpress-Examples/wpf-lookupedit-filter-by-multiple-columns)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-lookupedit-customize-the-embedded-data-grid&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-lookupedit-customize-the-embedded-data-grid&~~~was_helpful=no)
 
